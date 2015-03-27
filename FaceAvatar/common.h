@@ -1,29 +1,32 @@
-﻿#include "common.h"
+﻿#pragma once   //当被多次包含时也仅编译一次
+#define _CRT_SECURE_NO_DEPRECATE
+#include "DxLib.h"
+#include<math.h>
+#include <opencv2\opencv.hpp>
+#include <ipc.h>
+#include "urg.h"
+#include "ipc_msg.h"
+#include <process.h>
+#include <iostream>
+#include <Eigen/Dense>
+#include <Kinect.h>  
+#include <Kinect.Face.h>
+// Windows Header Files
+#include <windows.h>
+#include <Shlobj.h>
+#pragma comment ( lib, "kinect20.lib" )  
 
+using namespace cv;
+using namespace std;
+using namespace Eigen;
 
-VECTOR ConvCameraPosToWorldPos(VECTOR cameraPose, double cameraRo, VECTOR avatarCamPose){
-
-	Matrix<double, 2, 2> wRc;
-	Vector2d wPa, wPc, cPa;
-	cameraRo = -cameraRo;
-	wPc << cameraPose.x, cameraPose.z;
-	wRc << cos(cameraRo), -sin(cameraRo),
-		sin(cameraRo), cos(cameraRo);
-	cPa << avatarCamPose.x, avatarCamPose.z;
-	wPa = wPc + wRc*cPa;
-	return{ wPa[0], 0, wPa[1] };
-
-}
-
-VECTOR ConvWorldPosToCameraPos(VECTOR cameraPose, double cameraRo, VECTOR avatarWorPose){
-
-	Matrix<double, 2, 2> wRc;
-	Vector2d wPa, wPc, cPa;
-	cameraRo = -cameraRo;
-	wPa << avatarWorPose.x, avatarWorPose.z;
-	wPc << cameraPose.x, cameraPose.z;
-	wRc << cos(cameraRo), -sin(cameraRo),
-		sin(cameraRo), cos(cameraRo);
-	cPa = wRc.inverse()*(wPa - wPc);
-	return{ cPa[0], 0, cPa[1] };
+// Safe release for interfaces
+template<class Interface>
+inline void SafeRelease(Interface *& pInterfaceToRelease)
+{
+	if (pInterfaceToRelease != NULL)
+	{
+		pInterfaceToRelease->Release();
+		pInterfaceToRelease = NULL;
+	}
 }
