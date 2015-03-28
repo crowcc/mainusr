@@ -1,92 +1,92 @@
-﻿2015/03/27 17:46:03 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "C:\work\source\mainusr\FaceAvatar\FaceAvatar.vcxproj" (Rebuild ターゲット)。
+﻿生成启动时间为 2015/03/27 18:26:22。
+     1>项目“C:\work\source\mainusr\FaceAvatar\FaceAvatar.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt kinectframe.cpp main.cpp
          kinectframe.cpp
-     1>kinectframe.cpp(217): warning C4244: '=' : 'INT32' から 'float' への変換です。データが失われる可能性があります。
+     1>kinectframe.cpp(217): warning C4244: “=”: 从“INT32”转换到“float”，可能丢失数据
          main.cpp
-     1>c:\work\source\mainusr\faceavatar\cootrans.h(14): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\work\source\mainusr\faceavatar\cootrans.h(28): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(279): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(281): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(288): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(351): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(358): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(359): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(360): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(389): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(408): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(409): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(411): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(412): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(165): warning C4101: 'LeftElbowFrameNo6' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(184): warning C4101: 'LocalPositionRE4' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(163): warning C4101: 'M90_6' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(163): warning C4101: 'M56_6' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(184): warning C4101: 'LocalPositionLE4' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(165): warning C4101: 'RightElbowFrameNo6' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(165): warning C4101: 'RightElbowFrameNo3' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(184): warning C4101: 'LocalPositionRE5' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(165): warning C4101: 'LeftElbowFrameNo5' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(165): warning C4101: 'LeftElbowFrameNo3' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(165): warning C4101: 'RightElbowFrameNo2' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(163): warning C4101: 'M56_2' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(184): warning C4101: 'LocalPositionLE5' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(165): warning C4101: 'LeftElbowFrameNo2' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(165): warning C4101: 'RightElbowFrameNo4' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(163): warning C4101: 'M90_2' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(184): warning C4101: 'LocalPositionRE6' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(184): warning C4101: 'LocalPositionRE2' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(163): warning C4101: 'M90_5' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(163): warning C4101: 'M56_5' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(163): warning C4101: 'M90_4' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(184): warning C4101: 'LocalPositionLE6' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(184): warning C4101: 'LocalPositionLE2' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(165): warning C4101: 'RightElbowFrameNo5' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(163): warning C4101: 'M56_3' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(184): warning C4101: 'LocalPositionRE3' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(165): warning C4101: 'LeftElbowFrameNo4' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(163): warning C4101: 'M56_4' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(163): warning C4101: 'M90_3' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(184): warning C4101: 'LocalPositionLE3' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(516): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
-     1>main.cpp(517): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
-     1>main.cpp(518): warning C4244: '=' : 'int' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(519): warning C4244: '=' : 'int' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(513): warning C4101: 'lenrobostate' : ローカル変数は 1 度も使われていません。
+     1>c:\work\source\mainusr\faceavatar\cootrans.h(14): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\work\source\mainusr\faceavatar\cootrans.h(28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(279): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(281): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(288): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(351): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(358): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(359): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(360): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(389): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(408): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(409): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(411): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(412): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(165): warning C4101: “LeftElbowFrameNo6”: 未引用的局部变量
+     1>main.cpp(184): warning C4101: “LocalPositionRE4”: 未引用的局部变量
+     1>main.cpp(163): warning C4101: “M90_6”: 未引用的局部变量
+     1>main.cpp(163): warning C4101: “M56_6”: 未引用的局部变量
+     1>main.cpp(184): warning C4101: “LocalPositionLE4”: 未引用的局部变量
+     1>main.cpp(165): warning C4101: “RightElbowFrameNo6”: 未引用的局部变量
+     1>main.cpp(165): warning C4101: “RightElbowFrameNo3”: 未引用的局部变量
+     1>main.cpp(184): warning C4101: “LocalPositionRE5”: 未引用的局部变量
+     1>main.cpp(165): warning C4101: “LeftElbowFrameNo5”: 未引用的局部变量
+     1>main.cpp(165): warning C4101: “LeftElbowFrameNo3”: 未引用的局部变量
+     1>main.cpp(165): warning C4101: “RightElbowFrameNo2”: 未引用的局部变量
+     1>main.cpp(163): warning C4101: “M56_2”: 未引用的局部变量
+     1>main.cpp(184): warning C4101: “LocalPositionLE5”: 未引用的局部变量
+     1>main.cpp(165): warning C4101: “LeftElbowFrameNo2”: 未引用的局部变量
+     1>main.cpp(165): warning C4101: “RightElbowFrameNo4”: 未引用的局部变量
+     1>main.cpp(163): warning C4101: “M90_2”: 未引用的局部变量
+     1>main.cpp(184): warning C4101: “LocalPositionRE6”: 未引用的局部变量
+     1>main.cpp(184): warning C4101: “LocalPositionRE2”: 未引用的局部变量
+     1>main.cpp(163): warning C4101: “M90_5”: 未引用的局部变量
+     1>main.cpp(163): warning C4101: “M56_5”: 未引用的局部变量
+     1>main.cpp(163): warning C4101: “M90_4”: 未引用的局部变量
+     1>main.cpp(184): warning C4101: “LocalPositionLE6”: 未引用的局部变量
+     1>main.cpp(184): warning C4101: “LocalPositionLE2”: 未引用的局部变量
+     1>main.cpp(165): warning C4101: “RightElbowFrameNo5”: 未引用的局部变量
+     1>main.cpp(163): warning C4101: “M56_3”: 未引用的局部变量
+     1>main.cpp(184): warning C4101: “LocalPositionRE3”: 未引用的局部变量
+     1>main.cpp(165): warning C4101: “LeftElbowFrameNo4”: 未引用的局部变量
+     1>main.cpp(163): warning C4101: “M56_4”: 未引用的局部变量
+     1>main.cpp(163): warning C4101: “M90_3”: 未引用的局部变量
+     1>main.cpp(184): warning C4101: “LocalPositionLE3”: 未引用的局部变量
+     1>main.cpp(516): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>main.cpp(517): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>main.cpp(518): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>main.cpp(519): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>main.cpp(513): warning C4101: “lenrobostate”: 未引用的局部变量
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\work\source\mainusr\Release\FaceAvatar.exe" /INCREMENTAL:NO /NOLOGO Wsock32.lib ipc.lib opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_objdetect249.lib opencv_ts249.lib opencv_video249.lib Kinect20.Face.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\work\source\mainusr\Release\FaceAvatar.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\work\source\mainusr\Release\FaceAvatar.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO Release\kinectframe.obj
          Release\main.obj
-         コード生成しています。
-         コード生成が終了しました。
-     1>ipc.lib(behaviors.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(behaviors.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(com.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(com.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(comModule.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(comModule.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(datamsg.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(datamsg.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(formatters.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(formatters.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(globalM.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(globalM.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(globalMUtil.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(globalMUtil.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(hash.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(hash.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(idtable.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(idtable.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(ipc.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(ipc.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(key.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(key.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(lex.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(lex.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(list.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(list.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(marshall.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(marshall.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(modVar.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(modVar.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(parseFmttrs.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(parseFmttrs.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(primFmttrs.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(primFmttrs.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(printData.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(printData.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(queryResponse.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(queryResponse.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(reg.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(reg.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(resMod.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(resMod.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(sendMsg.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(sendMsg.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(strList.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(strList.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(tcaMem.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(tcaMem.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(tcaRef.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(tcaRef.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(tcModError.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(tcModError.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(timer.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(timer.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(wsocksrt.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(wsocksrt.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+         正在生成代码
+         已完成代码的生成
+     1>ipc.lib(behaviors.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(behaviors.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(com.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(com.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(comModule.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(comModule.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(datamsg.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(datamsg.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(formatters.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(formatters.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(globalM.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(globalM.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(globalMUtil.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(globalMUtil.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(hash.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(hash.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(idtable.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(idtable.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(ipc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(ipc.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(key.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(key.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(lex.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(lex.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(list.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(list.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(marshall.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(marshall.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(modVar.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(modVar.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(parseFmttrs.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(parseFmttrs.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(primFmttrs.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(primFmttrs.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(printData.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(printData.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(queryResponse.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(queryResponse.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(reg.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(reg.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(resMod.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(resMod.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(sendMsg.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(sendMsg.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(strList.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(strList.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(tcaMem.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(tcaMem.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(tcaRef.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(tcaRef.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(tcModError.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(tcModError.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(timer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(timer.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(wsocksrt.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(wsocksrt.obj)”或在“C:\work\source\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
          FaceAvatar.vcxproj -> C:\work\source\mainusr\Release\FaceAvatar.exe
        PostBuildEvent:
          xcopy "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase" "C:\work\source\mainusr\Release\NuiDatabase" /e /y /i /r  
@@ -149,11 +149,11 @@
          C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\right.p.txt
          C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\WholeHeadModel\FullHeadMaskVertexCorrespondence.txt
          C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\WholeHeadModel\fullMeanHead60_tri.ply
-         复制了 57 个文件
+         57 File(s) copied
          C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\Kinect20.Face.dll
-         复制了 1 个文件
-     1>プロジェクト "C:\work\source\mainusr\FaceAvatar\FaceAvatar.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+         1 File(s) copied
+     1>已完成生成项目“C:\work\source\mainusr\FaceAvatar\FaceAvatar.vcxproj”(Build 个目标)的操作。
 
-ビルドに成功しました。
+生成成功。
 
-経過時間 00:00:07.02
+已用时间 00:00:07.96
