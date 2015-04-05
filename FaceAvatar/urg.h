@@ -9,9 +9,7 @@ typedef struct{
 typedef struct{
 	float theta;
 	float dist;
-	//double w_y;
-	//int    needTurn;//true:1 false:0
-	//int    needMov;//true:1 false:0
+	int exitRobot;
 }roboControl;
 
 typedef struct{

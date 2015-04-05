@@ -8,12 +8,12 @@
 
 #define ROBOCONTROL_MSG "roboControl"
 
-#define ROBOCONTROL_MSG_FMT "{ float, float}"  //»úÆ÷ÈË¿ØÖÆ
+#define ROBOCONTROL_MSG_FMT "{ float, float, int }"  //»úÆ÷ÈË¿ØÖÆ
 
 #define LENPOSE_MSG "lenPose"
 
-#define LENPOSE_MSG_FMT "{ float, float, float,int}"  //lenµÄÊÀ½ç×ø±ê
+#define LENPOSE_MSG_FMT "{ float, float, float,int}"  //lenµÄÊÀ½ç×ø±E
 
 #define KAITOPOSE_MSG "kaitoPose"
 
-#define KAITOPOSE_MSG_FMT "{ float, float, float,int}"  //kaitoµÄÊÀ½ç×ø±ê
+#define KAITOPOSE_MSG_FMT "{ float, float, float,int}"  //kaitoµÄÊÀ½ç×ø±

@@ -74,6 +74,7 @@ void kaitoposeHandler(MSG_INSTANCE ref, void *data, void *dummy);
 
 VECTOR NOtoVector(int modelHandle, int jointNO);
 VECTOR KinectToVector(int NO1, int NO2);
+VECTOR KinectToVector2(int NO1, int NO2);
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow){
 
@@ -98,6 +99,15 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	HANDLE   hth1, hth2, hth3;
 	unsigned  uiThread1ID, uiThread2ID, uiThread3ID;
 
+	hth2 = (HANDLE)_beginthreadex(NULL,       // security  
+		0,            // stack size  
+		robotContlenrolThread,
+		NULL,           // arg list  
+		0,
+		&uiThread2ID);
+	if (hth2 == 0)
+		printfDx("Failed to create lenrobotContlenrol thread 2\n");
+
 	hth1 = (HANDLE)_beginthreadex(NULL,       // security  
 		0,            // stack size  
 		ipclistenThread,
@@ -107,14 +117,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	if (hth1 == 0)
 		printfDx("Failed to create ipclisten thread 1\n");
 
-	hth2 = (HANDLE)_beginthreadex(NULL,       // security  
-		0,            // stack size  
-		robotContlenrolThread,
-		NULL,           // arg list  
-		0,
-		&uiThread2ID);
-	if (hth2 == 0)
-		printfDx("Failed to create lenrobotContlenrol thread 2\n");
+	Sleep(100);
 
 	hth3 = (HANDLE)_beginthreadex(NULL,       // security  
 		0,            // stack size  
@@ -164,8 +167,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 	int RightShoulderFrameNo, LeftShoulderFrameNo, RightElbowFrameNo, LeftElbowFrameNo, RightElbowFrameNo2, LeftElbowFrameNo2, RightElbowFrameNo3, LeftElbowFrameNo3, RightElbowFrameNo4, LeftElbowFrameNo4, RightElbowFrameNo5, LeftElbowFrameNo5, RightElbowFrameNo6, LeftElbowFrameNo6;
 	RightShoulderFrameNo = MV1SearchFrame(ModelHandleLen, "右腕");
+	cout << RightShoulderFrameNo << endl;
 	LeftShoulderFrameNo = MV1SearchFrame(ModelHandleLen, "左腕");
-
+	cout << LeftShoulderFrameNo << endl;
 	RightElbowFrameNo = MV1SearchFrame(ModelHandleLen, "右ひじ");
 	LeftElbowFrameNo = MV1SearchFrame(ModelHandleLen, "左ひじ");
 	/*RightElbowFrameNo2 = MV1SearchFrame(ModelHandleLen, "右手捩1");
@@ -352,6 +356,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 		}
 
+		if (input.Buttons[1] == 128)robocnt.exitRobot = 1;
+		else robocnt.exitRobot = 0;
+
 
 #pragma endregion
 
@@ -364,25 +371,36 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		bonedata.Update();
 		userJoints = bonedata.GetJointData();
 		userFace = bonedata.GetFaceFrameRe();
+		
+		if (lenro2 * 180 / DX_PI_F >= 90 && lenro2 * 180 / DX_PI_F <= 270){
+			/////////取得从某向量到某向量的变换矩阵//////////////////////////////////////////////////////////////////
 
-		/////////取得从某向量到某向量的变换矩阵//////////////////////////////////////////////////////////////////
+			M45 = MMult(MGetRotVec2(VGet(-1, -1, 0), KinectToVector2(8, 9)), MGetTranslate(LocalPositionRS));
+			M89 = MMult(MGetRotVec2(VGet(1, -1, 0), KinectToVector2(4, 5)), MGetTranslate(LocalPositionLS));
+			M56 = MMult(MGetRotVec2(KinectToVector2(8, 9), KinectToVector2(9, 10)), MGetTranslate(LocalPositionRE));
+			M90 = MMult(MGetRotVec2(KinectToVector2(4, 5), KinectToVector2(5, 6)), MGetTranslate(LocalPositionLE));
 
-		M45 = MMult(MGetRotVec2(VGet(-1, -1, 0), KinectToVector(4, 5)), MGetTranslate(LocalPositionRS));
-		M89 = MMult(MGetRotVec2(VGet(1, -1, 0), KinectToVector(8, 9)), MGetTranslate(LocalPositionLS));
+			/////////执行//////////////////////////////////////////////////////////////////
+			MV1SetFrameUserLocalMatrix(ModelHandleLen, RightShoulderFrameNo, M45);
+			MV1SetFrameUserLocalMatrix(ModelHandleLen, LeftShoulderFrameNo, M89);
+			MV1SetFrameUserLocalMatrix(ModelHandleLen, RightElbowFrameNo, M56);
+			MV1SetFrameUserLocalMatrix(ModelHandleLen, LeftElbowFrameNo, M90);
+		}
+		else{
+			///////////取得从某向量到某向量的变换矩阵//////////////////////////////////////////////////////////////////
 
+			M45 = MMult(MGetRotVec2(VGet(-1, -1, 0), KinectToVector(4, 5)), MGetTranslate(LocalPositionRS));
+			M89 = MMult(MGetRotVec2(VGet(1, -1, 0), KinectToVector(8, 9)), MGetTranslate(LocalPositionLS));
+			M56 = MMult(MGetRotVec2(KinectToVector(4, 5), KinectToVector(5, 6)), MGetTranslate(LocalPositionRE));
+			M90 = MMult(MGetRotVec2(KinectToVector(8, 9), KinectToVector(9, 10)), MGetTranslate(LocalPositionLE));
 
-		M56 = MMult(MGetRotVec2(KinectToVector(4, 5), KinectToVector(5, 6)), MGetTranslate(LocalPositionRE));
+			/////////执行//////////////////////////////////////////////////////////////////
+			MV1SetFrameUserLocalMatrix(ModelHandleLen, RightShoulderFrameNo, M45);
+			MV1SetFrameUserLocalMatrix(ModelHandleLen, LeftShoulderFrameNo, M89);
+			MV1SetFrameUserLocalMatrix(ModelHandleLen, RightElbowFrameNo, M56);
+			MV1SetFrameUserLocalMatrix(ModelHandleLen, LeftElbowFrameNo, M90);
+		}
 
-		M90 = MMult(MGetRotVec2(KinectToVector(8, 9), KinectToVector(9, 10)), MGetTranslate(LocalPositionLE));
-
-		/////////执行//////////////////////////////////////////////////////////////////
-		MV1SetFrameUserLocalMatrix(ModelHandleLen, RightShoulderFrameNo, M45);
-		MV1SetFrameUserLocalMatrix(ModelHandleLen, LeftShoulderFrameNo, M89);
-		MV1SetFrameUserLocalMatrix(ModelHandleLen, RightElbowFrameNo, M56);
-		MV1SetFrameUserLocalMatrix(ModelHandleLen, LeftElbowFrameNo, M90);
-
-
-		//if (Rotatetest >= 2 * DX_PI_F)Rotatetest = 0; else Rotatetest = Rotatetest + 0.005;
 
 #pragma endregion
 
@@ -484,7 +502,7 @@ static unsigned __stdcall ipclistenThread(void *)
 {
 	while (1){
 		IPC_listenWait(20);
-		Sleep(50);
+		Sleep(200);
 	}
 }
 
@@ -492,6 +510,7 @@ static unsigned __stdcall ipcpublishThread(void *)
 {
 
 	while (1){
+		//IPC_listenWait(20);
 		//if (fabs(old_robocnt.dist - robocnt.dist) > 5.0 ||    // 控制数值变化超过一定范围才传送数据
 		//	fabs(old_robocnt.theta - robocnt.theta) > 3.0) {
 		IPC_publishData(ROBOCONTROL_MSG, &robocnt);
@@ -513,12 +532,13 @@ static unsigned __stdcall robotContlenrolThread(void *)
 	int lenrobostate;
 	int dist = 0, angdui = 0;
 	while (1){
+		//IPC_listenWait(20);
 		dist = sqrt(lenC.x*lenC.x + lenC.z*lenC.z);
 		angdui = 180 * atan2(lenC.x, lenC.z) / DX_PI_F; //右侧在0和180，左侧0和-180
 		robocnt.theta = angdui;
 		robocnt.dist = dist;
-		cout << "robocnt.theta" << robocnt.theta << endl
-			<< "robocnt.dist" << robocnt.dist << endl;
+	/*	cout << "robocnt.theta" << robocnt.theta << endl
+			<< "robocnt.dist" << robocnt.dist << endl;*/
 		Sleep(50);
 	}
 }
@@ -539,4 +559,8 @@ VECTOR NOtoVector(int modelHandle, int jointNO){
 
 VECTOR KinectToVector(int NO1, int NO2){
 	return VGet(userJoints[NO2].Position.X - userJoints[NO1].Position.X, userJoints[NO2].Position.Y - userJoints[NO1].Position.Y, userJoints[NO2].Position.Z - userJoints[NO1].Position.Z);
+}
+
+VECTOR KinectToVector2(int NO1, int NO2){
+	return VGet(userJoints[NO1].Position.X - userJoints[NO2].Position.X, userJoints[NO2].Position.Y - userJoints[NO1].Position.Y, userJoints[NO2].Position.Z - userJoints[NO1].Position.Z);
 }
