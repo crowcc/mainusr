@@ -1,107 +1,107 @@
-﻿2015/04/19 19:07:48 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "C:\work\source\mainusr\FaceAvatar\FaceAvatar.vcxproj" (Build ターゲット)。
+﻿生成启动时间为 2015/4/19 20:04:30。
+     1>项目“C:\work\source\mainusr\mainusr\FaceAvatar\FaceAvatar.vcxproj”在节点 2 上(Build 个目标)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (FaceAvatar.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>c:\work\source\mainusr\faceavatar\cootrans.h(14): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\work\source\mainusr\faceavatar\cootrans.h(28): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(181): warning C4566: ユニバーサル文字名 '\u8F7D' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(183): warning C4566: ユニバーサル文字名 '\u8F7D' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(207): warning C4566: ユニバーサル文字名 '\u8F7D' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(207): warning C4566: ユニバーサル文字名 '\u52A8' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(209): warning C4566: ユニバーサル文字名 '\u8F7D' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(209): warning C4566: ユニバーサル文字名 '\u52A8' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(293): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(295): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(303): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(363): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(364): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(377): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(414): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(418): warning C4566: ユニバーサル文字名 '\u8BBE' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(418): warning C4566: ユニバーサル文字名 '\u65F6' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(418): warning C4566: ユニバーサル文字名 '\u95F4' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(418): warning C4566: ユニバーサル文字名 '\u8D25' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(425): warning C4566: ユニバーサル文字名 '\u8BBE' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(425): warning C4566: ユニバーサル文字名 '\u65F6' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(425): warning C4566: ユニバーサル文字名 '\u95F4' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(425): warning C4566: ユニバーサル文字名 '\u8D25' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(432): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(436): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(441): warning C4566: ユニバーサル文字名 '\u8D25' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(444): warning C4566: ユニバーサル文字名 '\u8D25' によって表示されている文字は、現在のコード ページ (932) で表示できません
-     1>main.cpp(227): warning C4101: 'LeftElbowFrameNo6' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(247): warning C4101: 'LocalPositionRE4' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(225): warning C4101: 'M90_6' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(225): warning C4101: 'M56_6' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(247): warning C4101: 'LocalPositionLE4' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(227): warning C4101: 'RightElbowFrameNo6' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(227): warning C4101: 'RightElbowFrameNo3' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(247): warning C4101: 'LocalPositionRE5' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(227): warning C4101: 'LeftElbowFrameNo5' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(227): warning C4101: 'LeftElbowFrameNo3' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(227): warning C4101: 'RightElbowFrameNo2' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(225): warning C4101: 'M56_2' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(247): warning C4101: 'LocalPositionLE5' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(227): warning C4101: 'LeftElbowFrameNo2' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(227): warning C4101: 'RightElbowFrameNo4' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(225): warning C4101: 'M90_2' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(247): warning C4101: 'LocalPositionRE6' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(247): warning C4101: 'LocalPositionRE2' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(225): warning C4101: 'M90_5' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(225): warning C4101: 'M56_5' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(225): warning C4101: 'M90_4' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(247): warning C4101: 'LocalPositionLE6' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(247): warning C4101: 'LocalPositionLE2' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(227): warning C4101: 'RightElbowFrameNo5' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(225): warning C4101: 'M56_3' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(247): warning C4101: 'LocalPositionRE3' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(227): warning C4101: 'LeftElbowFrameNo4' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(225): warning C4101: 'M56_4' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(225): warning C4101: 'M90_3' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(247): warning C4101: 'LocalPositionLE3' : ローカル変数は 1 度も使われていません。
-     1>main.cpp(550): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
-     1>main.cpp(551): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
-     1>main.cpp(554): warning C4244: '=' : 'int' から 'float' への変換です。データが失われる可能性があります。
-     1>main.cpp(555): warning C4244: '=' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\work\source\mainusr\mainusr\faceavatar\cootrans.h(14): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\work\source\mainusr\mainusr\faceavatar\cootrans.h(28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(181): warning C4566: 由通用字符名称“\u8F7D”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(183): warning C4566: 由通用字符名称“\u8F7D”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(207): warning C4566: 由通用字符名称“\u8F7D”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(207): warning C4566: 由通用字符名称“\u52A8”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(209): warning C4566: 由通用字符名称“\u8F7D”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(209): warning C4566: 由通用字符名称“\u52A8”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(293): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(295): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(303): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(363): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(364): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(377): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(414): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(418): warning C4566: 由通用字符名称“\u8BBE”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(418): warning C4566: 由通用字符名称“\u65F6”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(418): warning C4566: 由通用字符名称“\u95F4”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(418): warning C4566: 由通用字符名称“\u8D25”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(425): warning C4566: 由通用字符名称“\u8BBE”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(425): warning C4566: 由通用字符名称“\u65F6”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(425): warning C4566: 由通用字符名称“\u95F4”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(425): warning C4566: 由通用字符名称“\u8D25”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(432): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(436): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(441): warning C4566: 由通用字符名称“\u8D25”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(444): warning C4566: 由通用字符名称“\u8D25”表示的字符不能在当前代码页(932)中表示出来
+     1>main.cpp(227): warning C4101: “LeftElbowFrameNo6”: 未引用的局部变量
+     1>main.cpp(247): warning C4101: “LocalPositionRE4”: 未引用的局部变量
+     1>main.cpp(225): warning C4101: “M90_6”: 未引用的局部变量
+     1>main.cpp(225): warning C4101: “M56_6”: 未引用的局部变量
+     1>main.cpp(247): warning C4101: “LocalPositionLE4”: 未引用的局部变量
+     1>main.cpp(227): warning C4101: “RightElbowFrameNo6”: 未引用的局部变量
+     1>main.cpp(227): warning C4101: “RightElbowFrameNo3”: 未引用的局部变量
+     1>main.cpp(247): warning C4101: “LocalPositionRE5”: 未引用的局部变量
+     1>main.cpp(227): warning C4101: “LeftElbowFrameNo5”: 未引用的局部变量
+     1>main.cpp(227): warning C4101: “LeftElbowFrameNo3”: 未引用的局部变量
+     1>main.cpp(227): warning C4101: “RightElbowFrameNo2”: 未引用的局部变量
+     1>main.cpp(225): warning C4101: “M56_2”: 未引用的局部变量
+     1>main.cpp(247): warning C4101: “LocalPositionLE5”: 未引用的局部变量
+     1>main.cpp(227): warning C4101: “LeftElbowFrameNo2”: 未引用的局部变量
+     1>main.cpp(227): warning C4101: “RightElbowFrameNo4”: 未引用的局部变量
+     1>main.cpp(225): warning C4101: “M90_2”: 未引用的局部变量
+     1>main.cpp(247): warning C4101: “LocalPositionRE6”: 未引用的局部变量
+     1>main.cpp(247): warning C4101: “LocalPositionRE2”: 未引用的局部变量
+     1>main.cpp(225): warning C4101: “M90_5”: 未引用的局部变量
+     1>main.cpp(225): warning C4101: “M56_5”: 未引用的局部变量
+     1>main.cpp(225): warning C4101: “M90_4”: 未引用的局部变量
+     1>main.cpp(247): warning C4101: “LocalPositionLE6”: 未引用的局部变量
+     1>main.cpp(247): warning C4101: “LocalPositionLE2”: 未引用的局部变量
+     1>main.cpp(227): warning C4101: “RightElbowFrameNo5”: 未引用的局部变量
+     1>main.cpp(225): warning C4101: “M56_3”: 未引用的局部变量
+     1>main.cpp(247): warning C4101: “LocalPositionRE3”: 未引用的局部变量
+     1>main.cpp(227): warning C4101: “LeftElbowFrameNo4”: 未引用的局部变量
+     1>main.cpp(225): warning C4101: “M56_4”: 未引用的局部变量
+     1>main.cpp(225): warning C4101: “M90_3”: 未引用的局部变量
+     1>main.cpp(247): warning C4101: “LocalPositionLE3”: 未引用的局部变量
+     1>main.cpp(550): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>main.cpp(551): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>main.cpp(554): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>main.cpp(555): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\work\source\mainusr\Release\mainusr.exe" /INCREMENTAL:NO /NOLOGO Wsock32.lib ipc.lib opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_objdetect249.lib opencv_ts249.lib opencv_video249.lib Kinect20.Face.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\work\source\mainusr\Release\mainusr.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\work\source\mainusr\Release\mainusr.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO Release\kinectframe.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\work\source\mainusr\mainusr\Release\mainusr.exe" /INCREMENTAL:NO /NOLOGO Wsock32.lib ipc.lib opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_objdetect249.lib opencv_ts249.lib opencv_video249.lib Kinect20.Face.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\work\source\mainusr\mainusr\Release\mainusr.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\work\source\mainusr\mainusr\Release\mainusr.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO Release\kinectframe.obj
          Release\main.obj
-         コード生成しています。
-         コード生成が終了しました。
-     1>ipc.lib(behaviors.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(behaviors.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(com.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(com.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(comModule.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(comModule.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(datamsg.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(datamsg.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(formatters.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(formatters.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(globalM.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(globalM.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(globalMUtil.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(globalMUtil.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(hash.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(hash.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(idtable.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(idtable.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(ipc.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(ipc.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(key.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(key.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(lex.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(lex.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(list.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(list.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(marshall.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(marshall.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(modVar.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(modVar.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(parseFmttrs.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(parseFmttrs.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(primFmttrs.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(primFmttrs.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(printData.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(printData.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(queryResponse.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(queryResponse.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(reg.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(reg.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(resMod.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(resMod.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(sendMsg.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(sendMsg.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(strList.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(strList.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(tcaMem.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(tcaMem.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(tcaRef.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(tcaRef.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(tcModError.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(tcModError.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(timer.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(timer.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-     1>ipc.lib(wsocksrt.obj) : warning LNK4099: PDB 'vc120.pdb' が 'ipc.lib(wsocksrt.obj)' で、または 'C:\work\source\mainusr\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
-         FaceAvatar.vcxproj -> C:\work\source\mainusr\Release\mainusr.exe
+         正在生成代码
+         已完成代码的生成
+     1>ipc.lib(behaviors.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(behaviors.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(com.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(com.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(comModule.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(comModule.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(datamsg.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(datamsg.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(formatters.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(formatters.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(globalM.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(globalM.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(globalMUtil.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(globalMUtil.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(hash.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(hash.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(idtable.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(idtable.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(ipc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(ipc.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(key.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(key.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(lex.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(lex.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(list.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(list.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(marshall.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(marshall.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(modVar.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(modVar.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(parseFmttrs.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(parseFmttrs.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(primFmttrs.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(primFmttrs.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(printData.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(printData.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(queryResponse.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(queryResponse.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(reg.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(reg.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(resMod.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(resMod.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(sendMsg.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(sendMsg.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(strList.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(strList.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(tcaMem.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(tcaMem.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(tcaRef.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(tcaRef.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(tcModError.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(tcModError.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(timer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(timer.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(wsocksrt.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(wsocksrt.obj)”或在“C:\work\source\mainusr\mainusr\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         FaceAvatar.vcxproj -> C:\work\source\mainusr\mainusr\Release\mainusr.exe
        PostBuildEvent:
-         xcopy "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase" "C:\work\source\mainusr\Release\NuiDatabase" /e /y /i /r  
-         xcopy "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\Kinect20.Face.dll" "C:\work\source\mainusr\Release\" /c /y  
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase" "C:\work\source\mainusr\mainusr\Release\NuiDatabase" /e /y /i /r  
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\Kinect20.Face.dll" "C:\work\source\mainusr\mainusr\Release\" /c /y  
          :VCEnd
          C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceAlignment.bin
          C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceAlignmentColor.bin
@@ -160,11 +160,11 @@
          C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\right.p.txt
          C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\WholeHeadModel\FullHeadMaskVertexCorrespondence.txt
          C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\WholeHeadModel\fullMeanHead60_tri.ply
-         57 個のファイルをコピーしました
+         57 File(s) copied
          C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\Kinect20.Face.dll
-         1 個のファイルをコピーしました
-     1>プロジェクト "C:\work\source\mainusr\FaceAvatar\FaceAvatar.vcxproj" (Build ターゲット) のビルドが完了しました。
+         1 File(s) copied
+     1>已完成生成项目“C:\work\source\mainusr\mainusr\FaceAvatar\FaceAvatar.vcxproj”(Build 个目标)的操作。
 
-ビルドに成功しました。
+生成成功。
 
-経過時間 00:00:03.52
+已用时间 00:00:04.16

@@ -168,7 +168,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	SetUseZBuffer3D(TRUE);
 
 	////////设置分辨率和色彩数量/////////////////////////////////////////////////////////////
-	SetGraphMode(1024, 700, 32);
+	SetGraphMode(960, 640, 32);
 
 	////////初始化并设为窗口模式/////////////////////////////////////////////////////////////
 	if (ChangeWindowMode(TRUE) != DX_CHANGESCREEN_OK || DxLib_Init() == -1) return -1;
@@ -511,7 +511,7 @@ static unsigned __stdcall ipclistenThread(void *)
 {
 	while (1){
 		IPC_listenWait(20);
-		Sleep(50);
+		Sleep(80);
 	}
 	
 }
