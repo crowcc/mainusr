@@ -16,4 +16,4 @@
 
 #define KAITOPOSE_MSG "kaitoPose"
 
-#define KAITOPOSE_MSG_FMT "{ float, float, float,int}"  //kaitoµÄÊÀ½ç×ø±
+#define KAITOPOSE_MSG_FMT "{ float, float, float,int}"  
